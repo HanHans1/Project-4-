@@ -43,8 +43,9 @@ CREATE TABLE `lib` (
 INSERT INTO `lib` (`id`, `img`, `judul`, `penulis`, `genre`, `link`) VALUES
 (1, '1CPvdtivn63bJ5BOmSOngFFiMqII6UwCU', 'Algorithm & DS C01', 'ipul', 'Science', '1GgzISEDwLQKtqZ-eW1-9-f6dGiu6P4vq'),
 (2, '111g9ruR3cyQ8ipUlVlARn9VeI9jJkNFs', 'Algoritm & DS C02', 'Hans', 'Science', '1GaQHgEGrtN9XMxkV0RgD4tCZTTBLNh_s'),
-(3, '1bXKQku0q7_yuuxKROLjAX6ULAiMUJsFZ', 'HTML', 'Ayu', 'Science', '1pNvO9Kz84GhnDn_PlxknrY-QS1N9ceAe');
-
+(3, '1bXKQku0q7_yuuxKROLjAX6ULAiMUJsFZ', 'HTML', 'Ayu', 'Science', '1pNvO9Kz84GhnDn_PlxknrY-QS1N9ceAe'),
+(4, '1bXKQku0q7_yuuxKROLjAX6ULAiMUJsFZ', 'CSS', 'Ayesha', 'Science', '1pNvO9Kz84GhnDn_PlxknrY-QS1N9ceAe'),
+(5, '1bXKQku0q7_yuuxKROLjAX6ULAiMUJsFZ', 'JS', 'Fey', 'Science', '1pNvO9Kz84GhnDn_PlxknrY-QS1N9ceAe'),
 -- --------------------------------------------------------
 
 --
@@ -86,7 +87,9 @@ CREATE TABLE `reqbook` (
 
 INSERT INTO `reqbook` (`id`, `name`, `email`, `bookreq`) VALUES
 (20, 'Daniel', 'daniel@ezlibrary.com', 'CSS'),
-(21, 'Hans', 'rezacrent@gmail.com', 'Css');
+(21, 'Hans', 'rezacrent@gmail.com', 'HTML');
+(22, Ipul, 'ipul@gmail.com', 'Java');
+(23, 'AWak', 'awak@gmail.com', 'C++');
 
 -- --------------------------------------------------------
 
@@ -107,7 +110,8 @@ CREATE TABLE `reqtd` (
 
 INSERT INTO `reqtd` (`id`, `name`, `email`, `booktdreq`) VALUES
 (68, 'Lucky', 'lucky@ezlibrary.com', '3 || HTML'),
-(69, 'Ayu', 'ayu@ezlibrary.com', '1 || Algorithm & DS C01');
+(69, 'Ayu', 'ayu@ezlibrary.com', '1 || Algorithm & DS C01'),
+(69, 'Reza', 'reza@ezlibrary.com', '2 || Algorithm & DS C01');
 
 --
 -- Indexes for dumped tables

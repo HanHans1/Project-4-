@@ -46,7 +46,6 @@ INSERT INTO `lib` (`id`, `img`, `judul`, `penulis`, `genre`, `link`) VALUES
 (3, '1bXKQku0q7_yuuxKROLjAX6ULAiMUJsFZ', 'HTML', 'Ayu', 'Science', '1pNvO9Kz84GhnDn_PlxknrY-QS1N9ceAe'),
 (4, '1bXKQku0q7_yuuxKROLjAX6ULAiMUJsFZ', 'CSS', 'Ayesha', 'Science', '1pNvO9Kz84GhnDn_PlxknrY-QS1N9ceAe'),
 (5, '1bXKQku0q7_yuuxKROLjAX6ULAiMUJsFZ', 'JS', 'Fey', 'Science', '1pNvO9Kz84GhnDn_PlxknrY-QS1N9ceAe'),
-(6, '1bXKQku0q7_yuuxKROLjAX6ULAiMUJsFZ', 'C++', 'Hasan', 'Science', '1pNvO9Kz84GhnDn_PlxknrY-QS1N9ceAe');
 -- --------------------------------------------------------
 
 --
